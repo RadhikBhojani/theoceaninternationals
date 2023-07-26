@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<!--Head-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
     <link href="css/templatemo-tiya-golf-club.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <main>
+<!--Nav bar-->
         <nav class="navbar navbar-expand-lg p-0">
             <div class="container cm-bg-brand">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -45,7 +47,8 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Product</a>
+                            <!-- <a class="nav-link click-scroll" href="product.html">Pr</a> -->
+                            <a class="nav-link" href="product.html">Product</a>
                         </li>
 
                         <li class="nav-item">
@@ -55,16 +58,13 @@
                 </div>
             </div>
         </nav>
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+<!--Home-->
+        <section class="hero-section d-flex justify-content-center align-ssitems-center" id="section_1">
             <div class="section-overlay"></div>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#07003C" fill-opacity="1"
-                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
-                </path>
-            </svg>  -->
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,272C640,288,800,288,960,266.7C1120,245,1280,203,1360,181.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,112C672,85,768,75,864,90.7C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-            <div class="container">
+            <svg class="cm-svg-position nav-web" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,112C672,85,768,75,864,90.7C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <svg class="cm-svg-position nav-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,266.7C480,277,600,299,720,288C840,277,960,235,1080,208C1200,181,1320,171,1380,165.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            <svg class="cm-svg-position nav-mobile cm-pt-42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,266.7C480,277,600,299,720,288C840,277,960,235,1080,208C1200,181,1320,171,1380,165.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            <div class="container pt-lg-5">
                 <div class="row">
                     <div class="col-lg-6 col-12 mb-5 mb-lg-0 mt-5">
                         <h2 class="text-white">Welcome to</h2>
@@ -96,7 +96,7 @@
             </svg> 
             <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,272C640,288,800,288,960,266.7C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> -->
         </section>
-        
+<!--Know more about the ocean international-->       
         <section class="about-section section-padding">
             <div class="container">
                 <div class="row">
@@ -112,6 +112,7 @@
             </div>
         </section>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,96L34.3,90.7C68.6,85,137,75,206,106.7C274.3,139,343,213,411,213.3C480,213,549,139,617,133.3C685.7,128,754,192,823,202.7C891.4,213,960,171,1029,144C1097.1,117,1166,107,1234,128C1302.9,149,1371,203,1406,229.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+<!--ABOut us-->
         <section class="cm-mision-section bg-blue" id="section_2">
             <div class="container">
                 <div class="row">
@@ -200,8 +201,7 @@
 
                 </div>
         </section>
-
-
+<!--Why us-->
         <section class="section-bg-image" id="section_3">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#07003c" fill-opacity="1" d="M0,96L34.3,90.7C68.6,85,137,75,206,106.7C274.3,139,343,213,411,213.3C480,213,549,139,617,133.3C685.7,128,754,192,823,202.7C891.4,213,960,171,1029,144C1097.1,117,1166,107,1234,128C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
@@ -231,6 +231,21 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="card m-2">
+                                <div class="card-header">
+                                    <b>Founder Message</b>
+                                </div>
+                                <div class="card-body">
+                                    <br class="blockquote mb-0">
+                                        <p>As the founder of this company, I am thrilled to introduce you to our team and our vision for the future of the import-export industry. Our mission is to provide high-quality and reliable services to our clients, and we are committed to achieving this by putting our clients first in everything we do.</p>
+                                        <footer>
+                                            <br />
+                                            <b><h5>Kishan Patel</h5> </b> 
+                                      
+                                            <span><p> (Managing Director)</p></span></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
                         </div>
                      </div>
                 </div>
@@ -251,171 +266,77 @@
                     stroke-width="0"></path>
             </svg>
         </section>
-
-        <section class="events-section section-padding" id="section_4">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12">
-                        <h2 class="mb-lg-3 text-center">Products</h2>
-                    </div>
-
-                    <div class="row custom-block mb-3">
-                        <div class="col-lg-4 col-12 mb-3">
-                                <div class="custom-block-image-wrap">
-                                    <a href="event-detail.html">
-                                        <img src="images/Ocean-Magnet.png"
-                                            class="custom-block-image img-fluid" alt="">
-                                    </a>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="custom-block-info mt-2 mt-lg-0">
-                                    <a href="index.html" class="events-title mb-3">Magnets</a>
-
-                                    <p class="mb-0">Available size of magnet 10@2 and 12@2 for best price contact us.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="custom-block-image-wrap">
-                                <a href="event-detail.html">
-                                    <img src="images/Ceramic Disc.png"
-                                        class="custom-block-image img-fluid" alt="">
-                                </a>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="custom-block-info mt-2 mt-lg-0">
-                                <a href="index.html" class="events-title mb-3">Ceramic Disc</a>
-
-                                <p class="mb-0">Available size of ceramic disc 15mm, 19mm and 21mm for best price contact us.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12 mb-3">
-                        <div class="custom-block-image-wrap">
-                            <a href="event-detail.html">
-                                <img src="images/ocean-water.png"
-                                    class="custom-block-image img-fluid" alt="">
-                            </a>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="custom-block-info mt-2 mt-lg-0">
-                            <a href="index.html" class="events-title mb-3">Water Saver flow</a>
-
-                            <p class="mb-0">Available high-quality water saver flow, for best price contact us.</p>
-                        </div>
-                    </div>
-                </div>
-             </div>
-      </div>
-      <div class="card m-2">
-        <div class="card-header">
-            <b>Founder Message</b>
-        </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>As the founder of this company, I am thrilled to introduce you to our team and our vision for the future of the import-export industry. Our mission is to provide high-quality and reliable services to our clients, and we are committed to achieving this by putting our clients first in everything we do.</p>
-                <footer class="blockquote-footer"><b>Kishan Patel</b> <cite
-                        title="Source Title">Managing Director</cite></footer>
-            </blockquote>
-        </div>
-    </div>
-            </div>
-        </section>
-
-
+<!--Contact us-->
         <section class="contact-section section-padding" id="section_5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="mb-4 pb-2">Contact us</h2>
-                   
-
-                    <div class="col-12">
-                        <div class="contact-info mt-5">
-                            <div class="contact-info-item">
-                                <div class="contact-info-body">
-                                    <strong>C/O 219 & 220, Dariyalal Business Centre, 8-A National Highway, 
-                                        <br />Morbi-363642,  Gujarat, IN</strong>
-
-
-                                    <p class="mb-0">
-                                        <a href="mailto:info@theoceaninternational.com" class="contact-link">
-                                            info@theoceaninternational.com
-                                        </a>
+           <footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                                <img src="images/w-logo.png" alt="logo" class="h-100-px">
+                                <p>"Unexpected Beauty with Quality"</p>
+                                <p>Don’t miss any opportunity to grow your business with us!</p>
+                               <!-- make whatsapp button -->
+                               <button type="button" class="btn btn-primary w-100 btn-block cm-bg-color"><a href="https://wa.me/917202022072" target="_blank" style="color: white;">
+                                <i class="fa fa-whatsapp"></i>
+                                Contact Us
+                            </a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pt-4">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h1 class="f-title f_600 t_color f_size_18">
+                                    <i class="fa fa-map-marker" style="font-size: 35px;"></i> Location
+                                </h1>
+                                 <p>C/O 219 & 220, Dariyalal Business Centre, 8-A National Highway, Morbi-363642,  Gujarat, IN.</p>
+                                 <img src="images/WorldMap.svg" alt="logo" class="h-100-px w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pt-4">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h1 class="f-title f_600 t_color f_size_18">
+                                    <i class="fa fa-envelope" style="font-size: 35px;"></i>&nbsp; Contact us
+                                </h1>
+                                 <a href="tel:+917202022072"><p>
+                                    <i class="fa fa-phone"></i> +91 72020 22072
                                     </p>
-                                </div>
-
-                                <div class="contact-info-footer">
-                                    <a href="#">Directions</a>
+                                 </a>
+                                 <br />
+                                 <a href="mailto:info@theoceaninternational.com"><p>
+                                    <i class="fa fa-envelope"></i>
+                                    info@theoceaninternational.com
+                                    </p>
+                                    </a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pt-4">
+                            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                                <h1 class="f-title f_600 t_color f_size_18">
+                                    <i class="fa fa-users" style="font-size: 35px;"></i>&nbsp; Let's Connect on Social Media
+                                </h1>
+                                <div class="f_social_icon">
+                                    <a href="#" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-linkedin"></a>
+                                    <a href="#" class="fa fa-pinterest"></a>
                                 </div>
                             </div>
-
-                            <img src="images/WorldMap.svg" class="img-fluid" alt="">
                         </div>
                     </div>
-
+                </div>
+                <div class="footer_bg">
+                    <div class="footer_bg_one"></div>
+                    <div class="footer_bg_two"></div>
                 </div>
             </div>
+        </footer>
         </section>
+
     </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-12 me-auto mb-5 mb-lg-0">
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
-                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="logo">
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-12">
-                    <h5 class="site-footer-title mb-4">Join Us</h5>
-
-                    <p class="d-flex border-bottom pb-3 mb-3 me-lg-3">
-                        <span>Contact</span>
-                        <a href="http://wa.me/+917202022072
-                        ">+91 7202022072</a>
-                    </p>
-
-                    <p class="d-flex me-lg-3">
-                        <span>Email</span>
-                        <a href="mailto:info@theoceaninternational.com" class="">
-                            info@theoceaninternational.com
-                        </a>
-                    </p>
-                    <br>
-                    <p class="copyright-text">Copyright © 2023 Creative Creatures</p>
-                </div>
-
-                <div class="col-lg-2 col-12 ms-auto">
-                    <ul class="social-icon mt-lg-5 mt-3 mb-4">
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-instagram"></a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-twitter"></a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="http://wa.me/+917202022072" class="social-icon-link bi-whatsapp"></a>
-                        </li>
-                    </ul>
-                </div> 
-
-            </div>
-        </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#07003C" fill-opacity="1"
-                d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
-        </svg>
-    </footer>
+<!--Footer-->
+   
 
 
     <!-- JAVASCRIPT FILES -->

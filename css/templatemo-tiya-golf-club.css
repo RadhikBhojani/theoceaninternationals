@@ -18,6 +18,7 @@ https://templatemo.com/tm-587-tiya-golf-club
   --custom-btn-bg-hover-color: #e07a5f;
   --dark-color: #000000;
   --p-color: #717275;
+  --p-col: white;
   --link-hover-color-brand: #07003c;
   --link-hover-color: #e07a5f;
 
@@ -435,13 +436,13 @@ strong {
 
 .sticky-wrapper {
   position: absolute;
-  top: 0;
+  top: -20;
   right: 0;
   left: 0;
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: #07003c;
+  /* background-color: #07003c; */
 }
 
 .navbar {
@@ -1190,8 +1191,9 @@ strong {
   }
 
   .navbar {
-    background-color: var(--secondary-color);
-    height: 120px;
+    /* background-color: var(--secondary-color); */
+
+    /* height: 120px; */
   }
 
   .navbar-nav .dropdown-menu {
@@ -1309,8 +1311,11 @@ strong {
 
 @media screen and (max-width: 991px) {
   .cm-bg-brand {
-    background-color: #07003c;
+    /* background-color: #07003c; */
   }
+}
+.cm-bg {
+  background-color: #07003c;
 }
 
 .cm-height-50 {
@@ -1319,5 +1324,304 @@ strong {
 
 .cm-mision-section {
   margin-bottom: -16px !important;
-  margin-top: -1px !important;
+}
+
+.cm-font-height {
+  font-size: 15px;
+}
+.blockquote-footer {
+  font-size: 20px;
+}
+.cm-height-47 {
+  height: 47px;
+}
+.cm-height-46 {
+  height: 40px;
+}
+.cm-bg-footer {
+  background-color: #07003c;
+  color: --p-col;
+}
+.cm-section-padding {
+  padding-top: 6%;
+}
+.cm-font-color {
+  color: var(--p-color);
+}
+.cm-h2-color {
+  color: white;
+}
+.cm-svg-position {
+  position: fixed !important;
+  z-index: 40;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-web {
+    display: none;
+  }
+  .cm-pt-42 {
+    padding-top: 42px !important;
+  }
+  .navbar-toggler .show {
+    background-color: #07003c !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sticky-wrapper {
+    top: -22px !important;
+  }
+}
+.cm-nav-color {
+  color: white !important;
+}
+.cm-pt-41 {
+  padding-top: 30px !important;
+}
+.cm-color-blue {
+  color: #07003c;
+}
+
+.show {
+  background: rgb(7, 0, 60);
+  margin-top: -30px;
+  padding-top: 30px;
+}
+
+body {
+  background: #fbfbfd;
+}
+
+.new_footer_area {
+  background: #fbfbfd;
+}
+
+.new_footer_top {
+  padding: 120px 0px 270px;
+  position: relative;
+  overflow-x: hidden;
+  background-color: white !important;
+}
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #7f88a6;
+  padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+  margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+.btn_get_two:hover {
+  background: transparent;
+  color: #07003c;
+}
+.btn_get:hover {
+  color: #fff;
+  background: #6754e2;
+  border-color: #6754e2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #07003c;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+  margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+  margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+  margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+  width: 44px;
+  height: 44px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 24px;
+}
+.f_social_icon a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  color: #858da8;
+  display: inline-block;
+  background: #ebeef5;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ti-facebook:before {
+  content: "\e741";
+}
+.ti-twitter-alt:before {
+  content: "\e74b";
+}
+.ti-vimeo-alt:before {
+  content: "\e74a";
+}
+.ti-pinterest:before {
+  content: "\e731";
+}
+
+.btn_get_two {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #07003c;
+  border-color: #07003c;
+  color: #fff;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #07003c;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #07003c;
+  border-color: #07003c;
+  color: white;
+}
+.new_footer_top .f_social_icon a + a {
+  margin-left: 4px;
+}
+.new_footer_top .f-title {
+  margin-bottom: 30px;
+  color: #263b5e;
+}
+.f_600 {
+  font-weight: 600;
+}
+.f_size_18 {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("../images/footer-bg.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url("../images/car.gif") no-repeat center center;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 22s linear infinite;
+  animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url("../images/cyclist.gif") no-repeat center center;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
+
+.h-100-px {
+  height: 100px;
+}
+
+.cm-bg-color {
+  background-color: #07003c;
+}
+
+#Modal1 {
+  background: none;
+}
+
+#Modal2 {
+  background: none;
+}
+
+#Modal3 {
+  background: none;
 }
